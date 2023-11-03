@@ -1,0 +1,34 @@
+<service>
+  <id>DeleteOverdueFiles</id>
+  
+  <name>a service for DeleteOverdueFiles</name>
+  
+  <description>DeleteOverdueFiles</description>
+  
+  
+  <executable>C:/Users/77037/Desktop/program/DeleteOverdueFiles/DeleteOverdueFiles.exe</executable>
+
+  <priority>Normal</priority>
+  
+  
+  <stoptimeout>15 sec</stoptimeout>
+    
+  
+  <stopparentprocessfirst>true</stopparentprocessfirst>
+
+    
+    <startmode>Automatic</startmode>
+  
+    <waithint>15 sec</waithint>
+    
+    
+    <sleeptime>1 sec</sleeptime>
+    
+<interactive />
+  
+  <log mode="append">
+    
+  </log>
+  
+
+</service>
